@@ -7,11 +7,22 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      keyframes: {
+        animateWave: {
+          '0%': { 'background-position-x': '1000px' },
+          '100%': { 'background-position-x': '0' },
+        },
+        animateWave2: {
+          '0%': { 'background-position-x': '0' },
+          '100%': { 'background-position-x': '1000px' },
+        }
       },
+      animation: {
+        wave1: 'animateWave 4s linear infinite',
+        wave2: 'animateWave2 4s linear infinite',
+        wave3: 'animateWave 3s linear infinite',
+        wave4: 'animateWave2 3s linear infinite',
+      }
     },
   },
   plugins: [],
