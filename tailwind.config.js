@@ -15,6 +15,10 @@ module.exports = {
         animateWave2: {
           '0%': { 'background-position-x': '0' },
           '100%': { 'background-position-x': '1000px' },
+        },
+        upDown: {
+          '0%': { transform: 'translateY(10px)'  },
+          '100%': { transform: 'translateY(-10px)' },
         }
       },
       animation: {
@@ -22,6 +26,7 @@ module.exports = {
         wave2: 'animateWave2 4s linear infinite',
         wave3: 'animateWave 3s linear infinite',
         wave4: 'animateWave2 3s linear infinite',
+        upDown: 'upDown 2s ease-in-out infinite alternate-reverse both',
       }
     },
   },

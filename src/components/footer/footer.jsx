@@ -1,5 +1,5 @@
 import React from 'react'
-import waves from '../../assets/img/wave.png';
+import waves from '../../assets/img/wavePurple.png';
 
 const footer = () => {
   const textVar = 'text-white hover:text-black';
@@ -7,7 +7,7 @@ const footer = () => {
   const iconVar2 = 'text-gray-400 hover:text-gray-500';
 
   return (
-    <footer className="bg-[#17B466] relative mt-28">
+    <footer className="bg-purple-600 relative mt-[112px]">
       <div className=''>
         <div id='wave1' className={`absolute top-[-100px] bottom-0 left-0 w-full h-[100px] z-20 opacity-100 animate-wave1`} style={{ backgroundImage: `url(${waves.src})`, backgroundSize: '1000px'}} ></div>
         <div id='wave1' className={`absolute top-[-100px] bottom-[10px] left-0 w-full h-[100px] z-10 opacity-50 animate-wave2`} style={{ backgroundImage: `url(${waves.src})`, backgroundSize: '1000px '}} ></div>
