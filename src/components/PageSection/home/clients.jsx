@@ -19,29 +19,29 @@ const clients = () => {
         <h2 className='my-5 uppercase text-3xl text-purple-600 font-semibold'>Nuestros Clientes</h2>
         <ul className='[&>li]:inline-block [&>li]:w-[200px] [&>li]:h-[150px] [&>li]:relative [&>li]:cursor-pointer [&>li]:m-[10px]
         [&>li]:min-w-[100px] [&>li>img]:w-full [&>li>img]:h-full'>
-          <li className='group overflow-hidden'>
-            <img src={su1.src} alt="" className='transition-transform duration-500 ease-in-out group-hover:-translate-y-full'/>
-            <img src={su2.src} alt="" className='transition-transform duration-500 ease-in-out group-hover:-translate-y-full'/>
+          <li className='group overflow-hidden [&>img]:transition-transform [&>img]:duration-500 [&>img]:ease-in-out'>
+            <img src={su1.src} alt="" className='group-hover:-translate-y-full'/>
+            <img src={su2.src} alt="" className='group-hover:-translate-y-full'/>
           </li>
-          <li className='group overflow-hidden'>
-            <img src={aa1.src} alt="" className='transition-transform duration-500 ease-in-out group-hover:-translate-y-full'/>
-            <img src={aa2.src} alt="" className='transition-transform duration-500 ease-in-out group-hover:-translate-y-full'/>
+          <li className='group overflow-hidden [&>img]:transition-transform [&>img]:duration-500 [&>img]:ease-in-out'>
+            <img src={aa1.src} alt="" className='group-hover:-translate-y-full'/>
+            <img src={aa2.src} alt="" className='group-hover:-translate-y-full'/>
           </li>
-          <li className='group overflow-hidden'>
-            <img src={n1.src} alt="" className='transition-transform duration-500 ease-in-out group-hover:-translate-y-full'/>
-            <img src={n2.src} alt="" className='transition-transform duration-500 ease-in-out group-hover:-translate-y-full'/>
+          <li className='group overflow-hidden [&>img]:transition-transform [&>img]:duration-500 [&>img]:ease-in-out'>
+            <img src={n1.src} alt="" className='group-hover:-translate-y-full'/>
+            <img src={n2.src} alt="" className='group-hover:-translate-y-full'/>
           </li>
-          <li className='group overflow-hidden'>
-            <img src={jo1.src} alt="" className='transition-transform duration-500 ease-in-out group-hover:-translate-y-full'/>
-            <img src={jo2.src} alt="" className='transition-transform duration-500 ease-in-out group-hover:-translate-y-full'/>
+          <li className='group overflow-hidden [&>img]:transition-transform [&>img]:duration-500 [&>img]:ease-in-out'>
+            <img src={jo1.src} alt="" className='group-hover:-translate-y-full'/>
+            <img src={jo2.src} alt="" className='group-hover:-translate-y-full'/>
           </li>
-          <li className='group overflow-hidden'>
-            <img src={as1.src} alt="" className='transition-transform duration-500 ease-in-out group-hover:-translate-y-full'/>
-            <img src={as2.src} alt="" className='transition-transform duration-500 ease-in-out group-hover:-translate-y-full'/>
+          <li className='group overflow-hidden [&>img]:transition-transform [&>img]:duration-500 [&>img]:ease-in-out'>
+            <img src={as1.src} alt="" className='group-hover:-translate-y-full'/>
+            <img src={as2.src} alt="" className='group-hover:-translate-y-full'/>
           </li>
-          <li className='group overflow-hidden'>
-            <img src={nv1.src} alt="" className='transition-transform duration-500 ease-in-out group-hover:-translate-y-full'/>
-            <img src={nv2.src} alt="" className='transition-transform duration-500 ease-in-out group-hover:-translate-y-full'/>
+          <li className='group overflow-hidden [&>img]:transition-transform [&>img]:duration-500 [&>img]:ease-in-out'>
+            <img src={nv1.src} alt="" className='group-hover:-translate-y-full'/>
+            <img src={nv2.src} alt="" className='group-hover:-translate-y-full'/>
           </li>
         </ul>
       </div>
